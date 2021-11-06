@@ -1,5 +1,5 @@
 .feed {
-    flex: 0.6;
+    flex:0.6;
     margin: 0 20px;
   }
   
@@ -9,11 +9,11 @@
     padding-bottom: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-  }   
+  }
   
   .feed__input {
     border: 1px solid lightgrey;
-    border-radius: 10px;
+    border-radius: 30px;
     display: flex;
     padding: 10px;
     color: gray;
@@ -37,3 +37,8 @@
     display: none;
   }
   
+  .feed__inputOptions {
+    display: flex;
+
+    justify-content: space-evenly;
+  }
